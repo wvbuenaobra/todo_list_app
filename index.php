@@ -57,7 +57,7 @@
 									    	<button class="btn btn-danger btnremove">Remove</button>
 										</li> -->
 										<div class="input-group mb-3">
-									  	<input type="text" name="task" id="task" class="form-control" value="<?php //echo $row['name'] ?>" readonly style="background-color: white;">
+									  	<input type="text" name="task" id="task" class="form-control" value="<?php echo $row['name'] ?>" readonly style="background-color: white;">
 									  	<div class="input-group-append">
 									    	<button class="btn btn-success" type="button" id="btndone">Done</button>
 									    	<button class="btn btn-danger" type="button" id="btnremove">Remove</button>
